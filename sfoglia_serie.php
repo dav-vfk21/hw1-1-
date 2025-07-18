@@ -33,7 +33,6 @@ if (isset($_GET['page'])) {
         <title>TV TIME</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="sfoglia_serie-film.css">
-    <script src ="sito_base.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gidole&display=swap" rel="stylesheet">
@@ -113,7 +112,6 @@ $next = $page + 1;
 echo "<a href='sfoglia_serie.php?tipo=$tipo&page=$next' class='pagina_sinistra'>Successiva <img src = 'successivo.png'></a>";
 echo "</div>";
       ?>
-
         </section>
     </main>
     </body>
