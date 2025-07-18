@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family:'Gilder',sans-serif ;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+.link_serie,.link_film,.link_esplora,.link_utente{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    width: 70px;
+}
+.link_serie img {
+height: 50px;
+width: 50px;
+}
+header nav{
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+    background-color:darkslategray;
+    color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;    
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    padding: 15px 10px 10px 15px; 
+}
+h1{
+      font-size: 72px;
+      display: flex;
+      width: 100%;
+}
+.Serie a,.Film a{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 100%;
+      background-color: whitesmoke;
+}
+.Serie img,.Film img{
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+}
+.general{
+    height: 900px;
+    padding: 25px;
+}
+.general h1{
+    font-size: 50px;
+}
+.Serie,.Film{
+    height: 400px;
+}
+.Serie h1{
+    font-size: 50px;
+}
+.Film h1{
+    font-size: 50px;
+}
+.info_utente{
+    display: flex;
+    padding-top: 10%;
+    padding-left: 20px;
+}
+#lista_series,#lista_film{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: flex-start;
+}
+.card {
+    padding: 15px;
+}
+.card img{
+    height: 200px;
+    width: 120px;
+    border-radius: 8px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:space-between;
+    height: 90px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}

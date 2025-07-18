@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family:'Gilder',sans-serif ;
+    padding: 0px;
+}
+nav{
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-top: -25px;
+    margin-right: 20px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 200px;
+    margin-top: -40px;
+    color: white;
+    font-weight: 600;
+    margin-right: 25px;
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 50px;
+}
+.show_list {
+    padding-top: 100px;
+}
+.sfoglia_serie a{
+    display: block;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 16px 14px 18px;
+    text-decoration: none;
+    font-size: 16px;
+    margin:auto;
+    font-weight: bold;
+    color: black;
+    width: 250px;
+    margin-top: 40px;
+}
+.link_serie,.link_film,.link_esplora,.link_utente{
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    width: 70px;
+}
+.link_serie img {
+height: 50px;
+width: 50px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:space-between;
+    height: 90px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 1200px;
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,952 @@
+body{
+    font-family: 'Caveat,sans-serif';
+    margin: 0;
+}
+.schermata_logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFD400;
+    height: 89px;
+    width: 100%;
+    padding:10px 0px;
+}
+img{
+    text-align:top;
+    height:50px;
+    padding: 0px 12px;
+}
+header{
+    height: 500.75px;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.849);
+}
+.header_media_info{
+height: 500.5px;
+width: 100%;
+}
+.flex_header_media_details{
+height: 422.5px;
+display:flex;
+justify-content: flex-start;
+align-items: center;
+padding: 30px;
+}
+.trailer{
+   height: 30px;
+   width: 240px;
+   display: flex;
+   justify-content: flex-start;
+}
+.header_poster_wrapper{
+height: 342.5px;
+width: 240px;
+}
+.header_poster{
+height: 342.5px;
+width: 240px;
+}
+.poster-title{
+    height: 310px;
+    width: 240px;
+}
+.indirizzamento{
+height: 100px;
+width: 240px;
+font-size: 17px;
+font-style: none;
+text-decoration: none;
+margin: 10px;
+color: #FFD400;
+}
+.header_descrizione_completa{
+height: 342.5px;
+width: 490.67px;
+padding:30px;
+}
+.header_descrizione{
+height: 332.5px;
+width: 490.67px;
+padding:10px;
+}
+.header_descrizione_nome{
+height: 54px;
+width: 490.67px;
+color: white;
+font-size: 35px;
+padding-bottom: 25px;
+}
+.header_descrizione_rilascio{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+#rating{
+    height: 30px;
+    width: 30px;
+    padding-bottom: 10px;
+}
+.rating_stars{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding-bottom: 10px;
+    height: 20px;
+    width: 20px;
+    padding-bottom: 10px;
+}
+.rating_stars img{
+    position: relative;
+    top:-35px;
+    left:40px;
+    font-size: 1em;
+}
+.header_descrizione_trama{
+width: 490.67px;
+color: white;
+font-size: 20px;
+font-weight: 100;
+margin-top: 20px;
+max-height: 190px;
+overflow: auto;
+padding-right: 30px;
+}
+.header_descrizione_nome{
+height: 54px;
+width: 490.67px;
+color: white;
+font-size: 35px;
+padding-bottom: 30px;
+}
+.header_status_wrapper{
+    margin-left: 100px;
+    height: 349.5px;
+    width: 288px;
+    padding: 80px;
+}
+.header_status_top{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    height: 206.5px;
+    width: 288px;
+}
+.header_status_added{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color: white;
+    border: 3px solid black;
+    background-color: black;
+    margin: 8px 0px;
+    padding: 15px 0px;
+    height: 87px;
+    width: 288px;
+}
+.header_status_comment{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color: white;
+    border: 3px solid black;
+    background-color: black;
+    margin: 8px 0px;
+    padding: 15px 0px;
+    height: 87px;
+    width: 288px;
+}
+.header_add {
+display: block;
+height: 49px;
+width: 288px;
+font-weight: 700;
+text-align: center;
+font-size: 16px;
+border: 3px solid #FFD400;
+color: #FFD400;
+background-color: black;
+border-radius: 5px;
+text-decoration: none;
+padding: 0px 5px;
+}
+.header_status_add {
+height: 21px;
+width: 228.39px;
+margin: 0px 0px 0px 5px;
+}
+.header_watch {
+height: 47.5px;
+width: 288px;
+border: 3px solid #FFD400;
+border-radius: 5px;
+display: block;
+font-weight: 700;
+color: #FFD400;
+text-align: center;
+font-size: 20px;
+background-color: black;
+text-decoration: none;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+#aggiungi_genere{
+height: 20px;
+width: 20px;
+}
+.header_seen {
+height: 19.5px;
+width: 288px;
+text-decoration: none;
+margin: 0px 109.5px;
+color: #FFD400;
+font-size: 15px;
+font-weight: 700;
+}
+.info_episodi_stagioni{
+height: 450px;
+width: 95%;
+margin: 40px 0px 0px;
+padding: 0px 0px 0px 35px;
+}
+/*.episodi_e_stagioni{
+    display: flex;
+    height: 62px;
+    width: 1045px;
+    padding: 0px 5px;
+    margin: 0px 0px 0px 55px;
+}*/
+h2{
+    margin:0px 20px 8px 0px;
+    padding-left: 20px;
+    height: 54px;
+    width: 106px;
+    font-size: 40px;
+}
+h4{
+    margin:0px 20px 8px 0px;
+    padding-left: 20px;
+    height: 54px;
+    width: 300px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.stagioni{
+    display: block;
+    margin:5px 25px;
+    height: 52px;
+    width: 173px;
+}
+.seleziona_stagione_wrapper{
+    display: inline-block;
+}
+.scelta_stagioni{
+    display:flex;
+    background-color: #F5F5F5;
+    height: 38px;
+    width: 173px;
+    border: 3px solid black;
+}
+
+#selezione_placeholder{
+    width: 117px;
+    height: 24px;
+    margin:0px 2px;
+    font-size: 15px;
+}
+#indicatore_selector {
+    display: flex;
+    height: 36px;
+    width: 36px;
+    padding: 0px;
+}
+.flex_selector{
+    width: 40px;
+}
+.indicatore_selector img{
+    height: 20px;
+    width: 20px;
+}
+/*#scorri-destra,#scorri-destra{
+    position: absolute;
+    right: 200px;
+}
+#scorri-destra img,#scorri-destra img,#scorri-sinistra img,#scorri-sinistra img {
+  position: relative;
+  top: 3px; 
+}
+#scorri-episodi img ,#scorri-cast img{
+    height: 150px;
+}
+#scorri-episodi img,#scorri-cast img{
+    height: 125px;
+    width: 65px;
+}
+#scorri-sinistra img,#scorri-destra img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+}*/
+.flex_cast{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+.info_cast{
+    width: 95%;
+    height: 450px;
+    padding-left: 35px;
+    margin-top: 30px;
+}
+.cast_member{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+.cast_member img {
+height: 90px;
+width: 106px;
+display: block;
+}
+.info_commenti{
+    width: 95%;
+    height: 700px;
+    padding-left: 35px;
+}
+#lista_commenti{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#lista_commenti div{
+border: 1px solid gray;
+margin-top: 20px;
+margin-left: 20px;
+padding-right: 10px;
+  padding-top: 5px;
+  margin-bottom: 12px;
+}
+#watch_all_comments{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD400;
+    border-radius: 15px;
+    height: 30px;
+    width: 400px; 
+    color: black;
+    text-decoration: none;
+}
+.flex_commento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.offcanvas-body {
+    height: 19.5px;
+    width: 69.44px;
+    color: #FFD400;
+}
+.justify-content_start_flex-grow-1_nav{
+    display:flex;
+    height: 47px;
+    width: 647px;
+    justify-content: start;
+}
+.interno_logo{
+    display:flex;
+    border:5px solid #FFD400;
+    height: 60px;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0px 12px;
+}
+.ricerca {
+    background-color: #FFD400;
+    height: 40px;
+    width: 370px;
+    position: relative;
+    top: 5px;
+    border-bottom: 1px solid black;
+}
+.ricerca img{
+    position: relative;
+    height: 30px;
+    top:5px;
+}
+input {
+    border: 3px solid #FFD400;
+    background-color: #FFD400;   
+    font-size: 20px;
+}
+#titolo{
+    background-color: #FFD400;
+    font-size: 15px;
+
+}
+#generi-view-film{
+    position: absolute;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 450px;
+    max-width: 400px;
+    height: 470px;
+    color: #F5F5F5;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1;
+}
+#generi-view-serie{
+    position: absolute;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 500px;
+    margin-right: 40px;
+    margin-left: 1045px;
+    height: 470px;
+    color: #F5F5F5;
+    background-color: rgba(0,0,0,0.9);
+}
+#modal-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.9);
+    z-index:3;
+}
+#modal-view.hiddenPhotos{
+    display: none;
+}
+#modal-view img{
+  max-width: 90vw;           
+  max-height: 90vh;           
+  width: auto;
+  height: auto;
+}
+
+#generi-view-film .Film,.SerieTV{
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#generi-view-serie .Film,.SerieTV{
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#generi-view-film,#generi-view-film img{
+    max-width: 100%;
+}
+.no-scroll{
+    overflow: hidden;
+}
+  #results{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+#serie,#film,#generi{
+    color: black;
+    margin-top: 10px;
+    font-size: 17px;
+    border: 3px solid  #FFD400;
+    text-decoration: none;
+    width: 60px;
+    display: inline-block;
+}
+ strong{
+    font-size: 20px;
+}
+.bottone_serie ,.bottone_film ,.bottone_generi {
+    left: 40px;
+    width: 40px;
+    background-color: #FFD400;
+    border: 1px solid #FFD400;
+}
+.bottone_serie img,.bottone_film img,.bottone_generi img{
+    height: 15px;
+    background-color: #FFD400;
+}
+.dropdown_serie,.dropdown_film,.dropdown_generi{
+    width: 110px;
+}
+.dropdown_serie a,.dropdown_film a,.dropdown_generi a{
+   text-decoration: none;
+   color: white;
+   background-color: black;
+   height: 32px;
+   width: 150px;
+}
+.dropdown_serie,.dropdown_film,.dropdown_generi{
+    position: relative;
+    z-index: 1;
+  }
+  #pulsante_giu_serie,#pulsante_giu_film{
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: black;
+    color: white;
+    z-index: 1; 
+    padding: 8px 8px 8px 0px;
+    border-radius: 6px;
+  }
+  #pulsante_giu_serie a,#pulsante_giu_film a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #pulsante_giu_serie a:hover,#pulsante_giu_film a:hover{ 
+    background-color: #FFD400;
+    margin-left: 10px;
+    border-radius: 10px;
+  }   
+  #pulsante_giu_generi{
+    height: 330px;
+    width: 700px;
+    background-color: black;
+    margin-top: 7px;
+    padding: 8px 8px 8px 0px;
+    border-radius: 10px;
+  }
+  .sezione_generi{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #pulsante_giu_generi a{  
+    height:24px;
+    width: 200px;
+    margin: 0px 0px 0px 4px;
+    padding: 4px 16px;
+    font-size: 20px;
+  }
+  #pulsante_giu_generi a:hover{ 
+    background-color: #FFD400;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+  }
+.hidden1,.hidden2,.hidden3,.hidden4{
+    display: none;
+}
+#link{
+    display:flex;
+    align-items:flex-start;
+}
+#link a{
+    display:flex;
+    align-items: flex-end;
+    padding: 0px 0px 6px 12px;
+}
+.credenziali {
+    display:flex;
+    position: absolute;
+    right:10px;
+    width: 186px;
+    height: 45px;
+    font-family: 'Helvetica, sans-serif';
+    font-weight: bold;
+    font-size: 23px;
+    justify-content: end;
+    align-items: center;
+    color: black;
+    margin-left: 25px;
+}
+.credenziali a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+.credenziali a:hover{
+    color:red;
+}
+main{
+    min-height: 100vh;
+}
+.mostra_generi{
+    height: 2000px;
+    width: 1020px;
+}
+.generi_serie_film{
+    height:110px;
+    width: 992px;
+    margin:0px 0px 50px 55px;
+}
+h1{
+    height:46px;
+    width: 500px;
+    margin:30px 0px 0px;
+    font-size: 50px;
+}
+.scelta_generi{
+    position: relative;
+    height:31px;
+    width: 92px;
+    left: 500px;
+    bottom: 25px;
+    font-size: 40px;
+}
+.flex_scelta_generi{
+    display: flex;
+    height:31px;
+    width: 92px;
+}
+.flex_conteiner_item{
+    display:flex;
+    flex-wrap: wrap;
+    width: 1350px;
+}
+.item {
+    width: 200px;
+    padding:40px;
+}
+.item img{
+    height: 200px;
+    width: 200px;
+}
+#series ,#films{
+    text-decoration: none;
+    color: black;
+    margin:10px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+a.active {
+  border-bottom: 5px solid yellow;
+}
+#error{
+    font-size: 40px;
+}
+
+.footer_e_sottofooter{
+    background-color: black;
+    color:white;
+    padding:48px 0px;
+    height:380px;
+    width: 100%;
+}
+.footer_container{
+    height: 355px;
+    width: 960px;
+    margin: 0px -18px 0px 49.54px;
+    padding: 0px 0px 50px;
+}
+.row{
+    display: flex;
+    height: 356px;
+    width: 984px;
+}
+.row_colonna_sinistra{
+    display: flex;
+    height: 356px;
+    width: 574px;
+}
+.reparto_lingue{
+    height: 315px;
+    width: 120.5px;
+    padding: 0px 12px 48px;
+}
+.vstack{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 119px;
+}
+.colonna_sinistra{
+    height: 356px;
+    width: 574px;
+}
+.navbar_brand {
+    height: 75px;
+    width: 119px;
+}
+.navbar_brand img{
+     width:75px;
+     height: 75px;
+     padding: 0px;
+}
+.dropdown_lingua{
+    height: 48.08px;
+    width: 119px;
+}
+#lingua{
+    position: relative;
+    height: 48px;
+    width: 116px;
+    font-size: 15px;
+    text-align:start;
+    margin-top: 10px;
+    padding:0px 20px 8px 18px; 
+    border-radius: 10px;
+    background-color: #FFFF;
+}
+#lingua img{
+    position: absolute;
+    height: 25px;
+    width: 20px;
+    top: 5px;
+}
+#lingue{
+    position: absolute;
+    height: 100px;
+    width: 110px;
+    border: 5px solid white;
+    background-color: white; 
+    padding: 8px 8px 8px 0px;
+}
+#lingue a{
+     font-style: none;
+     text-decoration: none;
+     font-size: 20px;
+     color: #212529;
+     height: 32px;
+     width: 300px;
+     margin: 0px 0px 0px 4px;
+     padding: 4px 16px;
+}
+#lingue a:hover{
+    background-color:#FFD400;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.colonna_azienda,.colonna_link,.colonna_social{
+    height: 356px;
+    width: 120.5px;
+    padding: 0px 12px;
+}
+.colonna_azienda h5,.colonna_link h5,.colonna_social h5{
+    color:#FFD400;
+    height: 12.95px;
+    width: 119px;
+    margin:0px 0px 8px
+}
+.social-item img{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+}
+.flex_colonna1{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 336px;
+    width: 119.5px;
+}
+.flex_colonna2{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100px;
+    width: 119.5px;
+}
+.flex_colonna3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.info,.articoli,.work,.privacy,.privacy_policy,.condizioni_uso{
+    width: 143px;
+    height: 40px;
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.azienda-item a,.link-item a{
+    height: 20px;
+    width: 119px;
+    padding:8px 16px 8px 0px;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.supporto,.contatti{
+    width: 143px;
+    height: 40px;
+    text-decoration: none;
+    color: #FFFF;
+}
+.supporto a,.contatti a{
+    height: 64px;
+    width: 119px;
+    padding:8px 16px 8px 0px;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.separatore {
+  width: 1px;
+  background-color: yellow;
+  height: 355px;
+  padding: 1px;
+}
+.footer_download{
+    height: 345px;
+    width: 350px;
+    padding: 10px 0px 0px 60px;
+}
+.footer_download h3{
+    height: 86px;
+    width: 349px;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+.testo_bianco{
+    height: 86.38px;
+    width: 349px;
+}
+ .titolo_download span{
+    display: inline-block;
+    height: 86.38px;
+    width: 349px;
+   font-size: 10px;
+}
+.footer_qr_code {
+     width:124px;
+     height:112px;
+     padding: 0px 12px;
+}
+.footer_qr_code img{
+    position: relative;
+    top: 10px;
+     width:160px;
+     height:160px;
+}
+.row-store{
+    height: 112px;
+    width: 373px;
+}
+.footer_playstore{
+    position: relative;
+    height: 112px;
+    width: 248.66px;
+    margin-left: 140px;
+    bottom: 120px;
+}
+.footer_playstore img{
+    height: 50px;
+    width: 180px;
+    margin-left: 60px;
+}
+.app_store img{
+    width: 150px;
+}
+.google_play_store,.app_store{
+    height: 40px;
+    width: 224.66px;
+    margin: 30px 0px;
+}
+.footer_copyright{
+    text-align:center;
+    height: 35px;
+    background-color: #FFD400;
+    color: rgb(32, 32, 32);
+    padding:10px;
+    font-weight:bold;
+}
+.text-center{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.link_social a{
+    display:inline-block;
+    border-radius:80px;
+    background-color: white;
+    margin:0px 8px 0px 0px;
+    margin-left:10px;
+    padding: 7px 0px 0px 0px;
+}
+
+
+
+.lista_episodi {
+  display: flex;
+  overflow-x: auto;
+}
+
+.episodio {
+  width: 300px;
+  scroll-snap-align: start;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.episodio img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px;
+}
+
+.info_episodio {
+    width: 600px;
+}
+.info_episodio h3{
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+/*.dati_stagione {
+  margin: 20px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.lista_episodi {
+  list-style: none;
+  padding: 0;
+}
+
+.episodio {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.episodio img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.episodio_info {
+  max-width: 70%;
+}

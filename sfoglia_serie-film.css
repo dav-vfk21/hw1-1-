@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family:'Gilder',sans-serif ;
+    padding: 0px;
+}
+nav{
+    position: fixed;
+    height: 200px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-top: -25px;
+    margin-right: 20px;
+}
+.show_list {
+    display: flex;
+    justify-content: flex-start;
+}
+.show_list img{
+    position: relative;
+    top: 20px;
+}
+.scelta_generi{
+    height:31px;
+    width: 100%;
+    font-size: 40px;
+}
+.flex_scelta_generi{
+    display: flex;
+    justify-content: flex-start;
+    height:31px;
+    width: 100%;
+}
+#series ,#films{
+    text-decoration: none;
+    color: black;
+    margin:10px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-left: 750px;
+}
+a.active {
+  border-bottom: 5px solid black;
+}
+header{
+    height: 1200px;
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    padding-top: 200px;
+    height: 900px;
+}
+.card {
+   /* display: flex;
+    flex-wrap: wrap;*/
+    padding: 20px;
+    /*justify-content: flex-start;*/
+    text-align: start;
+}
+.card img {
+    width:600px;
+    height: 600px;
+   /* display: block;*/
+}
+.card h3 {
+   font-size: 15px;
+   color: black;
+}
+#save_item{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 20px;
+}
+#save_item img{
+    height: 30px;
+    width: 30px;
+}
+.paginazione{
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+.pagina_destra{
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+}
+.pagina_destra img,.pagina_sinistra img{
+    height: 40px;
+    width: 40px;
+}
+.pagina_sinistra {
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+}
