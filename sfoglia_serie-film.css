@@ -58,16 +58,12 @@ section{
     height: 900px;
 }
 .card {
-   /* display: flex;
-    flex-wrap: wrap;*/
     padding: 20px;
-    /*justify-content: flex-start;*/
     text-align: start;
 }
 .card img {
     width:600px;
     height: 600px;
-   /* display: block;*/
 }
 .card h3 {
    font-size: 15px;
